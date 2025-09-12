@@ -22,6 +22,8 @@ function App() {
 
   //converts date object to string
   const formatTime = (date) => {
+
+    
     //get hours, minutes, seconds
 
     const hours = String(date.getHours()).padStart(2, "0");
